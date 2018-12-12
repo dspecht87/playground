@@ -1,0 +1,11 @@
+<h1>Rechner Bitcoin to Euro</h1>
+
+<mat-form-field>
+  <input matInput placeholder="BTC" [(ngModel)]="bitcoin">
+</mat-form-field>
+
+Euro: {{euro}}
+
+<br>
+
+<button mat-raised-button color="primary" (click)="calculate()">Rechnen</button>
