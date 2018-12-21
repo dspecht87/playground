@@ -13,13 +13,15 @@ import { NaviComponent } from './navi/navi.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
+import { QuoteGeneratorComponent } from './quote-generator/quote-generator.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TestComponent,
     HeaderComponent,
-    NaviComponent
+    NaviComponent,
+    QuoteGeneratorComponent
   ],
   imports: [
     BrowserModule,

@@ -1,16 +1,24 @@
 <mat-sidenav-container class="example-container">
     <mat-sidenav mode="side" opened>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <ul>
-            <li>Link1</li>
-            <li>Link2</li>
-            <li>Link3</li>
+            <li><a routerLink="/calculator">Währungsrechner</a></li>
+            <li><a routerLink="/quoteGenerator">Zitatgenerator</a></li>
+            <li><a routerLink="/">Pro-Contra-Liste</a></li>
+            <li><a routerLink="/">Einkaufsliste</a></li>
         </ul>
 
     </mat-sidenav>
     <mat-sidenav-content>
 
         <app-header></app-header>
-        <app-test></app-test>
+        <router-outlet></router-outlet>
 
     </mat-sidenav-content>
 </mat-sidenav-container>
