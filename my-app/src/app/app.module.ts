@@ -14,6 +14,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { QuoteGeneratorComponent } from './quote-generator/quote-generator.component';
+import { LayoutTestComponent } from './layout-test/layout-test.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { QuoteGeneratorComponent } from './quote-generator/quote-generator.compo
     TestComponent,
     HeaderComponent,
     NaviComponent,
-    QuoteGeneratorComponent
+    QuoteGeneratorComponent,
+    LayoutTestComponent
   ],
   imports: [
     BrowserModule,
