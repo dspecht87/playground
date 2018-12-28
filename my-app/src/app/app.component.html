@@ -1,4 +1,17 @@
-<header id="header">Header</header>
-<nav id="sidebar-left">Left</nav>
-<main id="main">Main</main>
+<header id="header">
+    <app-header></app-header>
+</header>
+
+<nav id="sidebar-left">
+    <ul>
+        <li><a routerLink="/calculator">Währungsrechner</a></li>
+        <li><a routerLink="/quoteGenerator">Zitatgenerator</a></li>
+        <li><a routerLink="/">Pro-Contra-Liste</a></li>
+        <li><a routerLink="/">Einkaufsliste</a></li>
+    </ul>
+</nav>
+
+<main id="main">
+        <router-outlet></router-outlet>
+</main>
 <footer id="footer">Footer</footer>
