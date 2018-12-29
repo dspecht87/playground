@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LayoutTestComponent } from './layout-test.component';
+import { CryptoCalcComponent } from './crypto-calc.component';
 
-describe('LayoutTestComponent', () => {
-  let component: LayoutTestComponent;
-  let fixture: ComponentFixture<LayoutTestComponent>;
+describe('CryptoCalcComponent', () => {
+  let component: CryptoCalcComponent;
+  let fixture: ComponentFixture<CryptoCalcComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ LayoutTestComponent ]
+      declarations: [ CryptoCalcComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(LayoutTestComponent);
+    fixture = TestBed.createComponent(CryptoCalcComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TestComponent } from './test/test.component';
 import { MatInputModule } from '@angular/material/input';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
@@ -14,16 +13,16 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { QuoteGeneratorComponent } from './quote-generator/quote-generator.component';
-import { LayoutTestComponent } from './layout-test/layout-test.component';
+import { CryptoCalcComponent } from './crypto-calc/crypto-calc.component';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TestComponent,
     HeaderComponent,
     NaviComponent,
     QuoteGeneratorComponent,
-    LayoutTestComponent
+    CryptoCalcComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +33,8 @@ import { LayoutTestComponent } from './layout-test/layout-test.component';
     HttpClientModule,
     MatSidenavModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
