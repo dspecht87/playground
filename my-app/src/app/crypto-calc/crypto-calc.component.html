@@ -9,13 +9,13 @@
       <mat-grid-tile>
         <mat-card>
           <mat-form-field>
-            <input matInput placeholder="BTC" [(ngModel)]="bitcoin">
+            <input matInput placeholder="BTC" [(ngModel)]="bitcoin" (ngModelChange)="calculate()">
           </mat-form-field>
 
           <br>
 
           <mat-form-field>
-            <input matInput placeholder="EUR" [(ngModel)]="euro">
+            <input matInput placeholder="EUR" [(ngModel)]="euro" disabled>
           </mat-form-field>
 
           <br>
